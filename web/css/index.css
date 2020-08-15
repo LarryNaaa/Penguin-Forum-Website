@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-size:50%;
+    background-image: url("penguin.png");
+}
+
+.navbar a {
+    align-items: center;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    box-sizing: border-box;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    padding: 0 20px;
+}
+
+.navbar1{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.post {
+    margin-left: 10cm;
+    margin-right: 10cm;
+    border: groove ;
+}
+
+.smallWord{
+    font-size: 10px;
+    color: gray;
+}
+
+.middleWord{
+    font-size: 20px;
+    color: black;
+}
+
+.bigWord{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+
+.grayWord {
+    font-size: 20px;
+    color: gray;
+}
+
+.newPostPicture{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    min-height: 80px;
+    box-sizing: border-box;
+    text-align: center;
+    flex-flow: column nowrap;
+    border-radius: 4px;
+}
