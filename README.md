@@ -1,2 +1,4 @@
 # PenguinWebsite
-CS5200 Course Project
+We have developed an online forum for penguin researchers and enthusiasts, they can log in and register under different identities. Users can post and upload pictures, comments and replies to others on the forum, as well as thumb up and bookmark favorite posts or comments. The forum also supports finding out when and where the penguin pictures were taken (longitude and latitude), as well as weather information such as temperature and humidity. This information could provide data sets for technologies such as artificial intelligence to identify penguin populations.
+
+The back-end of the project is implemented by JDBC+Servlet+JSP+MySQL, a filter is programmed for login security and a listener is programmed for increasing program speed(e.g., the average time to create a user is reduced from 10 milliseconds to 2 milliseconds). CSS and Bootstrap are used in the front of the project, and JSTL is used in the JSP to accomplish some functions.
